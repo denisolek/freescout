@@ -1,5 +1,36 @@
 # Free Self-Hosted Zendesk & Help Scout Alternative
 
+# Customizations
+
+### Login page
+- Changed banner `banner.png`
+- Removed `height="36"` from banner.blade.php
+- Removed "Forgot password" from `login.blade.php`
+
+### Footer
+- removed freescout info from `app.blade.php`
+
+### Other
+- Changed logo `logo-brand.svg`
+
+### Style changes
+
+```css
+.banner {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+replaced #0078d7 with #304156
+```
+
+## Config
+- Changed main color `/config/app.php` from #0078d7 to #304156
+
+---
+
+
 <div align="center">
 
 <img src="https://raw.githubusercontent.com/freescout-helpdesk/freescout/master/public/img/logo-300.png" width="180" height="180" />
@@ -93,7 +124,7 @@ Images & one-click installs:
 * [Community Modules](https://freescout.net/community-modules/)
 
 ## Tools & Integrations
-  
+
   * [API](https://api-docs.freescout.net/)
   * [Migrate to FreeScout](http://freescout.net/migrate/) (from any help desk)
   * [Zapier](https://freescout.net/zapier/)
