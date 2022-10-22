@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="noindex,nofollow">
-    
+
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
@@ -257,11 +257,6 @@
         @if (!in_array(Route::currentRouteName(), array('mailboxes.view'))
             && empty(app('request')->x_embed) && empty($__env->yieldContent('no_footer')))
             <div class="footer">
-                @if (!\Eventy::filter('footer.text', ''))
-                    &copy; 2018-{{ date('Y') }} <a href="{{ config('app.freescout_url') }}" target="blank">{{ \Config::get('app.name') }}</a> — {{ __('Free open source help desk & shared mailbox') }}
-                @else
-                    {!! \Eventy::filter('footer.text', '') !!}
-                @endif
                 @if (!Auth::user())
                     <a href="javascript:switchHelpdeskUrl();void(0);" class="hidden in-app-switcher"><br/>{{ __('Switch Helpdesk URL') }}</a>
                 @endif

@@ -666,27 +666,27 @@ select[multiple].input-md {
     border-color: #d3dae0;
 }
 .btn-trans:hover {
-    color: #0078D7;
+    color: #304156;
 }
 .btn-trans:focus {
     -webkit-box-shadow: none;
     box-shadow: none;
     background-color: transparent;
-    color: #0078D7;
+    color: #304156;
 }
 .btn-bordered {
-    color: #0078D7;
+    color: #304156;
     background-color: transparent;
     border-color: #dedede;
 }
 .btn-bordered:hover,
 .btn-bordered:focus {
     color: #fff;
-    background-color: #0078D7;
-    border-color: #0078D7;
+    background-color: #304156;
+    border-color: #304156;
 }
 .btn-text {
-    color: #0078D7;
+    color: #304156;
     background-color: transparent;
 }
 .btn-text:hover,
@@ -1816,7 +1816,7 @@ button.conv-checkbox-clear {
 }
 .conv-actions .conv-action:hover {
     /*color: #394956;*/
-    color: #0078d7;
+    color: #304156;
 }
 .conv-action.inactive {
     color: #aeb6c0;
@@ -2032,7 +2032,7 @@ button.conv-checkbox-clear {
 }
 .customer-trigger a:hover,
 .customer-trigger a:focus {
-    color: #0078D7;
+    color: #304156;
     text-decoration: none;
 }
 .thread {
@@ -2775,7 +2775,7 @@ ul.sidebar-block-list {
         box-shadow: none;
     }
     #conv-layout-customer .customer-photo-container {
-        margin: 0;  
+        margin: 0;
         width: 45px;
         float: left;
         margin-top: 0;
@@ -3157,7 +3157,7 @@ ul.sidebar-block-list {
     position: absolute; top: 0; bottom: 0;
     right: 19px;
     border: 4px solid #D7D7D7; border-radius: 20px;
-    transition: all 0.3s ease-in 0s; 
+    transition: all 0.3s ease-in 0s;
     height: 20px;
 }
 .onoffswitch-checkbox:checked + .onoffswitch-label {
@@ -3167,7 +3167,7 @@ ul.sidebar-block-list {
    border-color: #106ebe;
 }
 .onoffswitch-checkbox:checked + .onoffswitch-label:before {
-    right: 0px; 
+    right: 0px;
 }
 
 /**
@@ -3641,7 +3641,7 @@ body.print {
 .banner {
     text-align: center;
     margin-top: 30px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 .margin-top {
     margin-top: 20px !important;
@@ -3665,7 +3665,7 @@ body.print {
     margin-right: 20px !important;
 }
 .margin-left-10 {
-    margin-left: 10px !important;   
+    margin-left: 10px !important;
 }
 .margin-bottom {
     margin-bottom: 20px !important;
@@ -3755,7 +3755,7 @@ body.print {
 .subheading {
     font-size: 16px;
     margin: 20px 0 15px 15px;
-    font-weight: bold;    
+    font-weight: bold;
 }
 .section-search {
     line-height: inherit;
@@ -4133,7 +4133,7 @@ a.disabled:focus {
 }
 
 #conversations-bulk-actions {
-    z-index: 100; 
+    z-index: 100;
     display: none;
     pointer-events: none;
 }
@@ -4163,7 +4163,7 @@ a.disabled:focus {
 .dash-card-footer .dropdown-menu .glyphicon,
 .sidebar-buttons .dropdown-menu .glyphicon {
     position: relative;
-    color: #0078D7;
+    color: #304156;
     left: -5px;
 }
 .hover-shade:hover {
