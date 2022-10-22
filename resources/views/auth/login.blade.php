@@ -8,7 +8,7 @@
             @include('auth/banner')
 
             <div class="panel panel-default panel-shaded">
-                
+
                 <div class="panel-body">
 
                     @action('login_form.before')
@@ -57,12 +57,6 @@
                                 <button type="submit" class="btn btn-primary">
                                     {{ __('Login') }}
                                 </button>
-
-                                @if (Eventy::filter('auth.password_reset_available', true))
-                                    <a class="btn btn-link" href="{{ route('password.request') }}">
-                                        {{ __('Forgot Your Password?') }}
-                                    </a>
-                                @endif
                             </div>
                         </div>
                     </form>
