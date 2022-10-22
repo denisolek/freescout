@@ -31,7 +31,7 @@ return [
     |
     */
 
-    'name' => 'FreeScout',
+    'name' => 'Umia',
 
     /*
     |--------------------------------------------------------------------------
@@ -250,7 +250,7 @@ return [
     'options' => [
         'alert_fetch'        => ['default' => false],
         'alert_fetch_period' => ['default' => 15], // min
-        'email_branding'     => ['default' => true],
+        'email_branding'     => ['default' => false],
         'open_tracking'      => ['default' => true],
         'subscription_defaults' => ['default' => []],
     ],
