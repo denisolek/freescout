@@ -23,6 +23,7 @@
 }
 
 replaced #0078d7 with #304156
+replaced #0068bd with #263445
 ```
 
 ## Config
